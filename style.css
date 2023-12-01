@@ -1,0 +1,178 @@
+body{
+    background: rgb(197,247,240);
+    background: linear-gradient(90deg, rgba(197,247,240,1) 0%, rgba(142,140,163,1) 50%, rgba(86,33,85,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Amatic SC', sans-serif;
+}
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+body::-webkit-scrollbar:vertical {
+    width:10px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #c5f7f0;
+    border-radius: 20px;
+}
+
+.container{
+    background-color: #c5f7f065;
+    box-shadow:0 0 1px 1px #dbdbdb8c;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container__titulo{
+    font-size: 60px;
+    color: #562155;
+    text-shadow: #562155db 0 0 20px;
+    animation: pulso 1.5s infinite alternate;
+}
+
+.container__cronometro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.container__cronometro-timer{
+    font-size: 80px;
+    background-color: transparent;
+    animation: pulsito 2s infinite alternate;
+    padding: 20px;
+    color: #72577c;
+    margin-top: 15px;
+    font-weight: 700;
+
+
+}
+
+.container__cronometro-timer > span{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    color: #72577c;
+    font-weight: 400;
+
+}
+
+.container__cronometro-botones{
+    display: flex;
+    gap: 1em;
+}
+
+button{
+    background-color: #9bc2cd;
+    justify-content: space-evenly;
+    color: #562155;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px !important;
+    height: 5em;
+    width: 5em;
+    cursor: pointer;
+    transition:background-color 0.4s ease-in-out;
+    box-shadow:0 0 1px 1px #562155;
+    font-weight: 700;
+
+}
+button:hover{
+    background-color: #56215570;
+    color: #9bc2cd;
+    box-shadow:0 0 1px 1px #9bc2cd;
+}
+.container__cronometro-vuelta-titulo{
+    font-size: 40px;
+    color: #562155;
+    text-align: center;
+    text-shadow: #562155db 0 0 5px;
+}
+.container__cronometro-vuelta{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    max-height: 200px;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+li{
+    padding: 1rem;
+    border-bottom: 1px dashed #562155;
+    text-align: center;
+    font-size: 25px;
+    color: #562155;
+}
+
+li:last-child{
+    border-bottom: none;
+}
+
+li span{
+    font-weight: 700;
+    position: relative;
+    right: 15%;
+}
+.container__cronometro-vuelta-vueltas-tiempo{
+    font-weight: 400;
+    left: 15%;
+
+}
+.container__cronometro-vuelta-vueltas{
+    margin: 10px;
+}
+ul::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+
+@keyframes pulso {
+    from{
+        transform: scale(1);
+    }
+    
+    to{
+        transform: scale(1.1);
+    }
+}
+@keyframes pulsito {
+    from{
+        transform: scale(1.02);
+    }
+    
+    to{
+        transform: scale(1);
+    }
+}
+@media screen and (max-width: 600px) {
+    .container{
+        padding: 10px;
+    }
+    button{
+        height: 3em;
+        width: 3em; 
+    }
+    .container__cronometro-timer{
+        font-size: 60px;
+        padding: 10px;
+    }
+
+    .container__cronometro-timer > span{
+        width:50px;
+    
+    }
+  }
+
+
