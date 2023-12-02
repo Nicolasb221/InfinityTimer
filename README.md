@@ -9,7 +9,7 @@ Se inicia con la pantalla inicial, al clicar el botón **iniciar** comienza el c
 
 ![pantalla iniciada](https://github.com/Nicolasb221/Cronometro/assets/88752910/8bf25ef9-7062-4c16-bdeb-8eb3e0f4beaf)
 
-**Vuelta** y **pausa**, **vuelta** despliega una lista con el tiempo transcurrido desde la ultima vuelta, en el caso inicial la primera vuelta es el tiempo transcurrido desde el inicio del contador hasta el momento donde se da clic en el botón vuelta.
+**Vuelta** y **pausa**, **vuelta** despliega una lista desplazable con el tiempo transcurrido desde la ultima vuelta, en el caso inicial la primera vuelta es el tiempo transcurrido desde el inicio del contador hasta el momento donde se da clic en el botón vuelta.
 
 ![añadiendo Vueltas](https://github.com/Nicolasb221/Cronometro/assets/88752910/c84b42fd-350f-4266-ade2-4c954dd50ade)
 
