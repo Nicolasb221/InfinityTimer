@@ -1,4 +1,4 @@
-# Cronómetro
+# **InfinityTimer**
 **InfinityTimer**, es un proyecto creado para poner en práctica mis conocimientos en HTML CSS y JavaScript nativo.
 
 A continuación, mostrare el funcionamiento:
