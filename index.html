@@ -1,38 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>InfinityTimer</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="normalize.css" />
     <link rel="icon" href="cronometro.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-</head>
-<body>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="container">
-        <h1 class="container__titulo">InfinityTimer</h1>
-        <div class="container__cronometro">
-            <div class="container__cronometro-timer">
-                <span id="minutos">00</span>:
-                <span id="segundos">00</span>,
-                <span id="milisegundos">00</span>
-            </div>
-            <div class="container__cronometro-botones">
-                <button id="btn-iniciar">Iniciar</button>
-                <button id="btn-detener">Detener</button>
-                <button id="btn-pausa">Pausa</button>
-                <button id="btn-reiniciar">Reiniciar</button>
-            </div>
-            <div class="container__cronometro-vuelta">
-                <h2 class="container__cronometro-vuelta-titulo">Vueltas</h2>
-                <ul class="container__cronometro-vuelta-vueltas" id="vueltas"></ul>
-            </div>
+      <h1 class="container__titulo">InfinityTimer</h1>
+      <div class="container__cronometro">
+        <div class="container__cronometro-timer">
+          <span id="minutos">00</span>: <span id="segundos">00</span>,
+          <span id="milisegundos">00</span>
         </div>
+        <div class="container__cronometro-botones">
+          <button
+            class="container__cronometro-botones-iniciar"
+            id="btn-iniciar"
+          >
+            Iniciar
+          </button>
+          <button class="container__cronometro-botones-vuelta" id="btn-vuelta">
+            Vuelta
+          </button>
+          <button class="container__cronometro-botones-pausa" id="btn-pausa">
+            Pausa
+          </button>
+          <button
+            class="container__cronometro-botones-reiniciar"
+            id="btn-reiniciar"
+          >
+            Reiniciar
+          </button>
+        </div>
+        <div class="container__cronometro-vuelta">
+          <h2 class="container__cronometro-vuelta-titulo">Vueltas</h2>
+          <ul class="container__cronometro-vuelta-vueltas" id="vueltas"></ul>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
