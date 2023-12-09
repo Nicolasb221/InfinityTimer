@@ -1,5 +1,6 @@
 # **InfinityTimer**
 **InfinityTimer**, es un proyecto creado para poner en práctica mis conocimientos en HTML CSS y JavaScript nativo.
+PageSpeed Insights: https://pagespeed.web.dev/analysis/https-infinitytimer-netlify-app/2j8sh4nud8?form_factor=mobile
 
 A continuación, mostrare el funcionamiento:
 
