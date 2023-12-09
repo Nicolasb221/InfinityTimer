@@ -1,6 +1,5 @@
 # **InfinityTimer**
 **InfinityTimer**, es un proyecto creado para poner en práctica mis conocimientos en HTML CSS y JavaScript nativo.
-PageSpeed Insights: https://pagespeed.web.dev/analysis/https-infinitytimer-netlify-app/2j8sh4nud8?form_factor=mobile
 
 A continuación, mostrare el funcionamiento:
 
@@ -20,3 +19,7 @@ Se inicia con la pantalla inicial, al clicar el botón **iniciar** comienza el c
 
 **Reiniciar**, limpia la lista desplegada, reinicia el contador y regresa al estado pantalla inicial.
 ![reiniciado](https://github.com/Nicolasb221/Cronometro/assets/88752910/276c98e7-caed-4fd2-9b23-f581bb2483f9)
+
+
+
+PageSpeed Insights: https://pagespeed.web.dev/analysis/https-infinitytimer-netlify-app/2j8sh4nud8?form_factor=mobile
